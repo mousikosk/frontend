@@ -1,0 +1,74 @@
+body {
+  background-color: #ECF1F5;
+}
+
+.PriceOptionsWrapper {
+  padding: 20px;
+  text-align: center; 
+}
+
+.PriceOptionBox {
+  color: #867E9E;
+  background-color: #FAF8FF;
+  border: 2px solid #5E42AD;
+  text-align: center;
+  display: inline-table;
+}
+
+.PriceOptionBoxSmall {
+  width: 220px;
+  height: 350px;
+  position: relative;
+  top: 30px;
+  right: -6px;
+  margin-bottom: 40px; /* for small widths */
+}
+
+.PriceOptionBoxLarge {
+  width: 240px;
+  height: 410px;
+}
+
+.PriceOptionBoxTitle, .PriceOptionBoxLine {
+  font-size: 18px;
+}
+
+.PriceOptionBoxPrice {
+  background-color: #FFFFFF;
+  border-top: 1px solid #D8D1EC;
+  border-bottom: 1px solid #D8D1EC;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.PriceOptionBoxPriceSmall {
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.PriceOptionBoxTitle, .PriceOptionBoxPrice {
+  font-weight: 700;
+  height: 20px;
+  padding: 20px;
+}
+
+.PriceOptionBoxLine {
+  border-bottom: 1px solid #D8D1EC;
+  margin: 10px 16px;
+  padding: 0px 12px 16px 12px;
+}
+
+.PriceOptionBoxBanner {
+  color: #FAF8FF;
+  background-color: #5E42AD;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  font-size: 12px;
+  width: 110px;
+  float: right;
+  padding: 2px;
+  margin-right: -2px;
+  margin-top: -8px;
+}
